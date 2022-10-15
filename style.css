@@ -124,12 +124,26 @@ a{
 }
 
 .quote{
+    padding: 100px 275px;
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+blockquote{
+    margin: 0;padding: 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
 }
 
 .writer{
+    margin-top: 5px;
     align-self: flex-end;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .banner{
