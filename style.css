@@ -68,7 +68,7 @@ a{
     font-size: large;
 }
 
-.signup{
+button.signup{
     margin: 0px;
     background-color: #3882f6;
     color: white;
@@ -148,6 +148,35 @@ blockquote{
 
 .banner{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 50px 150px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    gap: 100px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bigexclamation{
+    margin: 0;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.smallexclamation{
+    margin: 0;
+    color: white;
+}
+
+button.signup#lower{
+    border: solid white;
 }
 
 .footer{
