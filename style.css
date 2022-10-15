@@ -1,32 +1,83 @@
+/* *{
+    margin: 0;padding: 0;
+} */
+
 body{
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
 }
 
 .header{
+    padding: 0px 200px 100px 200px;
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    color: white;
 }
 
 .navbar{
+    /* margin: 10px 150px 10px 150px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo.lhs{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 .links.rhs ul{
     display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .headerinfo{
+    padding: 100px 0px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .info{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.maintitle{
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subtext{
+    margin: 0px;
+    font-size: large;
+}
+
+.signup{
+    margin: 0px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    border: #3882f6;
+    border-radius: 10px;
 }
 
 .mid{
@@ -65,6 +116,11 @@ body{
 }
 
 .footer{
+    /* align-self:flex-end; */
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 33px;
 }
