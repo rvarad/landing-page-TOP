@@ -6,4 +6,4 @@ Languages used : **HTML**, **CSS**
 
 The task was to create a landing page using the given design layout.
 
-## Live - [title](https://rvarad.github.io/landing-page-TOP/)
+## Live - [Home](https://rvarad.github.io/landing-page-TOP/)
