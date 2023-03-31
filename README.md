@@ -6,4 +6,4 @@ Languages used : **HTML**, **CSS**
 
 The task was to create a landing page using the given design layout, with the help of **flexbox**.
 
-## Live - [Homepage](https://rvarad.github.io/signup-form-top/)
+## Live - [Homepage](https://rvarad.github.io/landing-page-TOP/)
